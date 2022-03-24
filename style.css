@@ -1,0 +1,89 @@
+body {
+    color: white;
+    background: #000000;
+    background: -webkit-linear-gradient(to right, #000000, #434343);
+    background: linear-gradient(to right, #000000, #434343);
+}
+
+.bt__title h1 {
+    font-size: 2.8rem;
+    text-transform: uppercase;
+    color: transparent;
+    background-image: linear-gradient(90deg, #6e40aa, #6154c8, #4c6edb, #368ce1, #24aad8, #1ac7c2, #1ddea3, #30ee83, #52f667, #7ef658, #7ef658);
+    -webkit-background-clip: text;
+    letter-spacing: 1.8px;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.bt__content p {
+    font-size: 1.72rem;
+    letter-spacing: .2px;
+    line-height: 1.7;
+    margin: 10px 0;
+}
+
+.day1 {
+    padding: 20px;
+    border-bottom: 3px solid;
+    border-color: #963db3;
+    margin-bottom: 30px;
+}
+
+.day1 span {
+    display: flex;
+    align-items: center;
+    color: palegreen;
+    font-size: 2.8rem;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+}
+
+.day1 span i {
+    font-size: 3rem;
+    color: palegreen;
+}
+
+.profile {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 20px 15px;
+}
+
+.profile a {
+    color: white;
+    font-size: 1.55rem;
+    text-align: center;
+    line-height: 1.7;
+    border: 1px solid white;
+    letter-spacing: .2px;
+    margin: 5px;
+    transition: all .3s ease-in-out;
+}
+
+.profile a:hover {
+    letter-spacing: .4px;
+}
+
+.profile a span {
+    font-size: 1.6rem;
+    color: rgb(208, 255, 137);
+    border-bottom: 1.2px solid palegreen;
+}
+
+#footer {
+    background-color: rgba(0, 0, 0, .8);
+}
+
+.ft {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+}
+
+.ft a {
+    font-size: 1.5rem;
+    color: white;
+    letter-spacing: .2px;
+}
