@@ -86,4 +86,6 @@ body {
     font-size: 1.5rem;
     color: white;
     letter-spacing: .2px;
+    text-align: center;
+    padding: 0 15px;
 }
